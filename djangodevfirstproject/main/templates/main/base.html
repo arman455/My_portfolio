@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+    <title>Document</title>
+    {% block links %}
+    {% endblock %}
+</head>
+<body>
+    <header>
+        <h1>Головна сторінка</h1>
+        <a href="{% url 'achievements_page' %}">Сторінка досягнень</a>
+        <a href="{% url 'education_page' %}">Сторінка освіти</a>
+        <a href="{% url 'hobbies_page' %}">Сторінка хоббі</a>
+        <a href="{% url 'leisure_page' %}">Сторінка дозвілля</a>
+        <a href="{% url 'main_page' %}">Головна сторінка</a>
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <p>footer</p>
+    </footer>
+</body>
+</html>

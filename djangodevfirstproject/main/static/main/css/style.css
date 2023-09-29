@@ -1,0 +1,147 @@
+body{
+    margin: 50px;
+    background: linear-gradient(to right, rgb(192, 128, 71), rgb(209, 173, 145));
+}
+
+header {
+    background-color: rgb(209, 136, 76);
+    border: 5px solid rgb(222, 148, 88);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+main {
+    background-color: rgb(209, 136, 76);
+    border: 5px solid rgb(222, 148, 88);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+}
+
+footer {
+    background-color: rgb(209, 136, 76);
+    border: 5px solid rgb(222, 148, 88);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+h1{
+    color: white;
+    user-select: none;
+}
+
+p{
+    color: white;
+    user-select: none;
+}
+
+a{
+    color: white;
+    user-select: none;
+}
+
+h2{
+    color: white;
+    user-select: none;
+}
+
+#div1{
+    background-color: rgb(235, 205, 180);
+    border: 5px solid rgb(218, 196, 177);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#div2{
+    background-color: rgb(235, 205, 180);
+    border: 5px solid rgb(218, 196, 177);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#div3{
+    background-color: rgb(235, 205, 180);
+    border: 5px solid rgb(218, 196, 177);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#div4{
+    background-color: rgb(235, 205, 180);
+    border: 5px solid rgb(218, 196, 177);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#img1{
+    width: 500px;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 10px;
+    user-select: none;
+    
+}
+
+#img2{
+    width: 500px;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 10px;
+    user-select: none;
+
+}
+
+#img3{
+    width: 500px;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 10px;
+    user-select: none;
+}
+
+#img4{
+    width: 500px;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 10px;
+    user-select: none;
+}
+
+.our_achievements{
+    background-color: rgb(218, 190, 167);
+    border: 5px solid rgb(200, 180, 163);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.our_education{
+    background-color: rgb(218, 190, 167);
+    border: 5px solid rgb(200, 180, 163);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.our_hobbies{
+    background-color: rgb(218, 190, 167);
+    border: 5px solid rgb(200, 180, 163);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.our_leisure{
+    background-color: rgb(218, 190, 167);
+    border: 5px solid rgb(200, 180, 163);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
